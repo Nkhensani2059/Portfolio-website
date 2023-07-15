@@ -189,6 +189,7 @@ section {
   filter: grayscale(0);
 }
 .header-content .right-header {
+  line-height: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,6 +205,11 @@ section {
 .header-content .right-header .name p {
   margin: 2rem 0;
   line-height: 3rem;
+}
+.btn-con {
+  display: flex;
+  align-self: flex-start;
+  
 }
 
 .main-btn {
@@ -273,10 +279,7 @@ section {
   font-size: 6.3rem;
 }
 
-.btn-con {
-  display: flex;
-  align-self: flex-start;
-}
+
 
 /*about*/
 .about-container {
@@ -606,7 +609,7 @@ section {
   padding-top: 3.5rem;
 }
 .contact-content .left-contact {
-  flex: 2;
+  flex: grid;
 }
 .contact-content .left-contact h4 {
   margin-top: 1rem;
