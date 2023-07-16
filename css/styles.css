@@ -829,4 +829,12 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
+}
+@media screen and (max-width: 480px) {
+  .contact-content {
+    flex-direction: column;
+  }
+  .section {
+    padding: 2rem 2.5rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

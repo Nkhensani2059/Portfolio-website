@@ -77,7 +77,6 @@
         flex-direction: column;
     }
 
-   
     
     .section{
         padding: 2rem 2.5rem;
@@ -205,5 +204,16 @@
          }
         }
      }
+}
+
+@media screen and (max-width: 480px){
+    .contact-content{
+        flex-direction: column;
+    }
+
+    
+    .section{
+        padding: 2rem 2.5rem;
+    }
 }
 
