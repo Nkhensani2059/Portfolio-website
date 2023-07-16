@@ -1,4 +1,46 @@
 @media screen and (max-width: 600px){
+
+    header{
+        padding: 0;
+    }
+    header .right-header{
+        padding: 2rem !important;
+    }
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .left-header{
+        .h-shape{
+            display: none;
+        }
+    }
+    .right-header{
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name{
+           font-size: 2.5rem !important;
+        }
+    }
+    .header-content .left-header .image{
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    .controls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+        .control{
+            margin: 1rem .3rem;
+        } 
+    }
    
     .about-container{
         grid-template-columns: 1fr;
@@ -17,7 +59,12 @@
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
     }
-  
+    .about-stats{
+        .progress-bars{
+          grid-template-columns: 1fr;  
+        }
+    }
+     
     .portfolios{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
@@ -25,6 +72,15 @@
     .blogs{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
+    }
+    .contact-content{
+        flex-direction: column;
+    }
+
+   
+    
+    .section{
+        padding: 2rem 2.5rem;
     }
 
     .main-title{
@@ -38,25 +94,6 @@
             }
         }
     }
-    .contact-content{
-        flex-direction: column;
-        .right-contact{
-            margin-left: 0;
-            margin-top: 2.5rem;
-        }
-    }
-    .contact-content .right-contact .i-c-2{
-        flex-direction:column;
-    }
-    .contact-content .right-contact .i-c-2 :last-child{
-        margin-left: 0 !important;
-        margin-top: 1.5rem;
-
-    }
-    
-    .section{
-        padding: 2rem 2.5rem;
-    }
 
    
 }
@@ -69,18 +106,7 @@
     }
     .contact-content{
         flex-direction: column;
-        .right-contact{
-            margin-left: 0;
-            margin-top: 2.5rem;
-        }
-    }
-    .contact-content .right-contact .i-c-2{
-        flex-direction:column;
-    }
-    .contact-content .right-contact .i-c-2 :last-child{
-        margin-left: 0 !important;
-        margin-top: 1.5rem;
-
+       
     }
 }
 @media screen and (max-width: 1070px){
@@ -180,3 +206,4 @@
         }
      }
 }
+
